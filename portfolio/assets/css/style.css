@@ -1,0 +1,62 @@
+:root{
+    --bs-primary: #AB8965;
+    --bs-primary--rgb: 171, 137, 101;
+    --bs-primary-rgb: 171, 137, 101;
+    --bs-dark: #181818;
+    --bs-font-sans-serif: 'Jost';
+}
+.fis-color{background-color: rgb(155, 212, 209);}
+.sec-color{background-color: rgb(255, 197, 71);}
+.thi-color{background-color: rgb(255, 204, 181);}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Jost';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-logo img{
+    height: 40px;
+}
+.px-btn {
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: ease all 0.35s;
+    display: inline-block;
+}
+.px-btn-theme {
+    background: #FF651C;
+    border-color: #FF651C;
+    color: #fff;
+    box-shadow: 6px 6px 0 -1px #373737;
+}
+.px-btn-theme:hover{
+    background: #373737;
+    border-color: #373737;
+    box-shadow: 6px 6px 0 -1px #FF651C;
+}
+.service_box{
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+}
+.service_box a{
+    width: 70px;
+    height: 70px;
+    /* padding: 10px; */
+}
+.skill_logo a{
+    width: 50px;
+    height: 50px;
+}
+.contact_box a{
+    width: 55px;
+    height: 55px;
+}
